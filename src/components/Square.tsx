@@ -1,8 +1,15 @@
 import React from 'react';
+import '../styles/Square.css';
 
-const Square: React.FC = () => {
+interface SquareProps {
+  value: string | null;
+  onClick: () => void;
+}
+
+const Square: React.FC<SquareProps> = ({ value, onClick }) => {
   return (
-    <button>
+    <button className="square" onClick={onClick}>
+      {value && <img src={value} alt="XO" />}
     </button>
   );
 };
