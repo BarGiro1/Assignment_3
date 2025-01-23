@@ -1,0 +1,20 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fddde6, #d9f7ff);
+    color: #333;
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+}
